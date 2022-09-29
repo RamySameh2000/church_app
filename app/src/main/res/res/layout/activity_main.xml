@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/c1"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:paddingTop="20dp"
+        android:src="@drawable/church"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/t1"
+        android:layout_width="10sp"
+        android:layout_height="40sp"
+        android:paddingTop="10dp"
+        android:text="lll"
+        android:textColor="@color/white"
+        app:layout_constraintStart_toEndOf="@id/c1"
+        tools:ignore="MissingConstraints" />
+
+
+    <Button
+        android:id="@+id/c1btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#2196F3"
+        android:text="Top Church"
+        android:textAllCaps="false"
+        app:layout_constraintStart_toEndOf="@id/c1"
+        app:layout_constraintTop_toBottomOf="@id/t1" />
+
+
+    <ImageView
+
+        android:id="@+id/c2"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:paddingTop="20dp"
+        android:src="@drawable/church"
+        app:layout_constraintTop_toBottomOf="@id/c1btn"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/t2"
+        android:layout_width="10sp"
+        android:layout_height="40sp"
+        android:paddingTop="20dp"
+        android:text="lll"
+        android:textColor="@color/white"
+        app:layout_constraintStart_toEndOf="@id/c2"
+        app:layout_constraintTop_toBottomOf="@id/c1" />
+
+    <Button
+        android:id="@+id/c2btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#2196F3"
+        android:text="Bottom Church"
+        android:textAllCaps="false"
+        app:layout_constraintStart_toEndOf="@id/c2"
+        app:layout_constraintTop_toBottomOf="@id/t2" />
+
+
+    <ImageView
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:src="@drawable/ic_theaters"
+        app:layout_constraintTop_toBottomOf="@id/c2"
+        android:id="@+id/th"
+        android:paddingTop="20dp"
+        tools:ignore="MissingConstraints" />
+    <TextView
+        android:id="@+id/t3"
+        android:layout_width="10sp"
+        android:layout_height="40sp"
+        android:paddingTop="30dp"
+        android:text="lll"
+        android:textColor="@color/white"
+        app:layout_constraintStart_toEndOf="@id/th"
+        app:layout_constraintTop_toBottomOf="@id/c2" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/thbtn"
+        app:layout_constraintTop_toBottomOf="@id/t3"
+        app:layout_constraintStart_toEndOf="@id/th"
+        android:textAllCaps="false"
+        android:text="Theater"
+        android:backgroundTint="#2196F3"/>
+
+
+    <ImageView
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:src="@drawable/hall"
+        app:layout_constraintTop_toBottomOf="@id/th"
+        android:paddingTop="30dp"
+        android:id="@+id/hall"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/t4"
+        android:layout_width="10sp"
+        android:layout_height="40sp"
+        android:paddingTop="30dp"
+        android:text="lll"
+        android:textColor="@color/white"
+        app:layout_constraintStart_toEndOf="@id/hall"
+        app:layout_constraintTop_toBottomOf="@id/th" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:backgroundTint="#2196F3"
+        app:layout_constraintStart_toEndOf="@id/hall"
+        app:layout_constraintTop_toBottomOf="@id/t4"
+        android:text="Funeral Hall"
+        android:id="@+id/hallbtn"/>
+
+
+
+
+
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "443240114571",
+    "firebase_url": "https://church-seating-app-default-rtdb.firebaseio.com",
+    "project_id": "church-seating-app",
+    "storage_bucket": "church-seating-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:443240114571:android:dff2cc1e54da665705278e",
+        "android_client_info": {
+          "package_name": "com.example.churchseatingapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "443240114571-lrlmhstabvcuq7sn0opqs2art2hascq0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDXUp8xBw1hyhlS_1qGdaQXIMH4ZDC5bk4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "443240114571-lrlmhstabvcuq7sn0opqs2art2hascq0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
